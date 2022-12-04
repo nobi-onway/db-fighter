@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\CMakeFiles\26b4fbe3667d0b17a0e121d91ad84a80\SYNC_RESOURCE-db-fighter.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\CMakeFiles\SYNC_RESOURCE-db-fighter" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C0A3BC3-B302-3680-BE17-5688E007EBEF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

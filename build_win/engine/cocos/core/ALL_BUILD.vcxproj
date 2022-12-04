@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B7AF4B24-6881-3254-BB43-EEA77C419B31}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter -BC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win --check-stamp-file C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\base\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\math\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\network\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter -BC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win --check-stamp-file C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\base\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\math\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\network\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter -BC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win --check-stamp-file C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\base\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\math\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\network\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter -BC:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win --check-stamp-file C:/Users/Admin/OneDrive/Documents/VTC/HKII/Cocos2dx/Project/db-fighter/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\base\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\math\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\network\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\ZERO_CHECK.vcxproj">
+      <Project>{501D65A6-EF56-3494-B418-83325365951D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{80ADEF03-396A-3BC4-9518-0A2D4A6D2A7E}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{08A89D36-AE33-3EAF-9F1F-31DA3806E6D9}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{3F2CF602-002B-3232-A00C-3DA5C972C0A5}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{BE2FAD87-C251-36F0-AD86-65D63D0E8867}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\md5\ext_md5.vcxproj">
+      <Project>{6944C5EC-7343-3DEF-A6ED-31CFAA2FD76D}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{798D5478-EA5E-324A-A8E3-559C6FF5DB82}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\recast\ext_recast.vcxproj">
+      <Project>{62CD9877-A0CC-35F5-A5BA-E75CE68B7F62}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{0EDDFED2-0FA1-316C-A8E0-669485C21114}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{9E4C0677-B825-3E6E-859A-E56D32B11CD7}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{BB69601F-6DE2-370A-A51D-167DA0C86456}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{2B36E211-64DC-3DB7-94FD-9BA965C1C3F5}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\build_win\engine\external\external.vcxproj">
+      <Project>{7B2BE1AF-1BBB-38CA-A69A-6404C156DD7E}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

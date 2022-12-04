@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Admin\OneDrive\Documents\VTC\HKII\Cocos2dx\Project\db-fighter\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{F73F1CD1-D498-35D7-970C-6746FCD9AF4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{C8652E77-6187-3C69-B5A6-08808CFD1457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{014795B0-ECCA-3B4F-8EAF-1EDF858EE148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{78A38685-4151-3E31-806C-2824F765FFD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{2D7FF8A4-6D4B-3A67-BDBF-C505E9D32782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{954A8AEF-5F59-336D-B01C-FEB12FD86D99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
